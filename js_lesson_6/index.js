@@ -77,3 +77,33 @@ let day = new Date().toLocaleDateString("en-GB", {
   weekday: "long",
 });
 console.log(day);
+
+let num = -2;
+
+if (num > 0) {
+  console.log("დადებითი");
+} else {
+  console.log("უარყოფითი");
+}
+
+num > 0 ? console.log("დადებითი") : console.log("უარყოფითი");
+
+function greeting() {
+  console.log("გამარჯობა");
+}
+
+greeting();
+
+function sum(a, b) {
+  return a + b;
+}
+
+// console.log(sum(12, 8));
+let result2 = sum(12, 8);
+console.log(result2);
+
+let multiply = function (a, b) {
+  return a * b;
+};
+
+console.log(multiply(2, 4));
